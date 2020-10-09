@@ -1,12 +1,12 @@
 h1 {text-align: center;}
 
-a.menuItem {
+.menuItem {
 	 background: black;
 	 color:white;
 	 text-decoration: none;
 	 padding: 20px;
 }
-a.selected {
+.selected {
 	 color: black;
 	 text-decoration: none;
 	 padding: 20px;
