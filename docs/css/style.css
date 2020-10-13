@@ -1,4 +1,9 @@
-h1 {text-align: center;}
+h1 {
+	text-align: center;
+	color: #2e3d9c;
+}
+
+h2 {color: #2e3d9c;}
 
 #menuBar {
     margin-top: 40px;
@@ -6,13 +11,14 @@ h1 {text-align: center;}
 }
 
 .menuItem {
-	 background: black;
-	 color:white;
+	/*background: black;*/
+	background: #1f683a;
+	color:white;
 	 text-decoration: none;
 	 padding: 20px;
 }
 .selected {
-	 color: black;
+	 color: #1f683a;
 	 text-decoration: none;
 	 padding: 20px;
 }
