@@ -2,154 +2,211 @@
 <html>
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
-	<title>Paroisses du Sacré Cœur et de Saint Nicolas</title>
-	<script src="app.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Paroisses du Sacré Cœur et de Saint Nicolas</title>
+    <script src="app.js" defer></script>
 </head>
 
 <body>
-	<h1>Paroisses du Sacré Cœur et de Saint Nicolas à Toulouse</h1>
-	<div id="menuBar"><span id="btnAccueil" class="selected" onclick="selectAccueil()">Accueil</span>
-		<span id="btnContact" class="menuItem" onclick="selectContact()">Contact</span>
-		<span id="btnMesses" class="menuItem" onclick="selectMesses()">Messes</span></div>
-   
-	<div id="accueil" class="page">
-	  <h2>Actualité, agenda</h2>
-     <div class="actu">
-	    <h3>Nouveaux horaires des messes</h3>
-       <h4>Le weekend à partir du 22 mai</h4>
-       <p>Le samedi à 18h30 Sacré Coeur</p>
-       <h5>Le dimanche</h5>
-       <ul>
-         <li>9h à Sainte Marie de Casselardit</li>
-         <li>10h30 au Sacré Coeur et St Nicolas</li>
-         <li>18h30 Sacré Coeur. Le dimanche 23 mai au soir avec les musiciens, répétition ouverte à tous à 17h30.</li>
-       </ul>
-       <h4>En semaine à partir du 25 mai</h4>
-       <ul>
-         <li>Mardi jeudi et vendredi à 8 heures au Sacré Coeur</li>
-         <li>Du mardi au vendredi à 18h30 à Saint Nicolas</li>
-         <li>Vendredi à 16h30 chapelet à l'église St Nicolas</li>
-       </ul>
-     </div>
-     <div class="actu">
-	    <h3>Samedi 3 juillet, fête au Sacré-Coeur</h3>
-		 <p>Un moment de retrouvailles, de rencontre et de prière pour fêter avec notre évêque les travaux réalisés dans l'église et la paroisse et le déconfinement. À partir de 12h, Plus de précisions à venir. Nous comptons sur vous !</p>
-     </div>
-     <div class="actu">
-	    <h3>AMAP Patte d'Oie</h3>
-		 <p>Une nouvelle année commence, si vous êtes intéressés(e)s, n'hésitez pas à vous renseigner auprès de Benjamin Gaillard(amap31.toulouse.cepiere AT gmail.com)</p>
-     </div>
-     <div class="actu">
-	    <h3>St Nicolas</h3>
-		 <p>Une petite équipe se constitue avec Joëlle et Dominique pour améliorer l'affichage et la présentation de l'église. N'hésitez pas à vous manifester auprès d'elle pour rendre notre église encore plus accueillante et les diverses propositions plus lisibles !</p>
-       <p>Pour que les visiteurs se sentent accueillis, une équipe Accueil se monte dans l'église. Si vous êtes tentés par cette expérience, ou si vous connaissez des personnes du quartier qui pourraient se sentir concernées...
-Contact : Isabelle R : isolabella51 AT hotmail.com</p>
-     </div>
-     <div class="actu">
-	    <h3>Toutes nos paroisses</h3>
-		 <p>Nous continuons à porter dans la prière la dynamique de conversion pastorale de nos paroisses. Suite au WE pastoral de novembre, une équipe travaille pour proposer des petites fraternités paroissiales, une autre pour favoriser des temps de rencontre fraternelle. Confions au Seigneur la croissance spirituelle de nos communautés et tous les paroissiens présents et à venir&nbsp;! Que l'Esprit Saint nous anime et nous guide&nbsp;!</p>
-     </div>
-     <div class="actu">
-	    <h3>Pélés VTT de l'été</h3>
-		 <p>Il reste encore quelques place pour les prochains <a href="https://www.pele-vtt.fr/">pélés VTT</a> cet été, pour la via de Tolosa (07-11 juillet) et la via de Occitania (21-25 août).</p>
-     </div>
-     <div class="actu">
-	    <h3>Mois de Marie</h3>
-		 <p>Cette année est marquée par un marathon de prières à la demande du pape François chaque soir à 18h à travers d'importants sanctuaires mariaux dans le monde, pour implorer la fin de la pandémie....alors unissons nous au Pape François et à tous les chrétiens du monde entier !</p>
-     </div>
-     <div class="actu">
-	    <h3>Ordination de Jesus le 27 juin</h3>
-		 <p>Jésus sera ordonné prêtre pour le diocèse de Toulouse le dimanche 27 juin à 16 heures. Pour ceux qui veulent participer pour l'aider à acquérir le matériel nécessaire à son ministère, une cagnotte va être constituée. Vous pouvez participer en apportant votre participation dans une enveloppe «&nbsp;cadeau ordination Jésus&nbsp;» à déposer dans les boîtes aux lettres des presbytères ou à nous remettre lors des messes. Il existe aussi une <a href="https://lydia-app.com/collect/97176-ordination-jesus/fr">cagnotte en ligne</a>.</p>
-     </div>
+<h1>Paroisses du Sacré Cœur et de Saint Nicolas à Toulouse</h1>
+<div id="menuBar"><span id="btnAccueil" class="selected" onclick="selectAccueil()">Accueil</span>
+    <span id="btnContact" class="menuItem" onclick="selectContact()">Contact</span>
+    <span id="btnMesses" class="menuItem" onclick="selectMesses()">Messes</span></div>
 
-	  <h2>Recherchons des talents</h2>
-	   <ul>
-		<li>Une personne pour la création d'affiches (FB, site...) pour avoir des supports attractifs</li>
-		<li>Des personnes pour travailler un support écrit pour les annonces paroissiales en vue de reprendre un bulletin paroissial écrit.</li>
-      <li>Pour rechercher des fonds pour permettre de continuer les travaux d'entretien et de valorisation de nos locaux paroissiaux (salles, église...). Actuellement, une personne nous offre sa main d'oeuvre et sa compétence et aussi son réseau pour trouver du matériel bon marché, nous devons arrêter faute de moyens, alors que nous avons des besoins très concrets.</li>
-      <li>Personnes intéressées pour monter une « garderie spi pour les petits enfants pendant la messe » (1 an à 3 ans et demie) pour répondre aux besoins des
-parents, des enfants et de tous les paroissiens.
-        Nous contacter pour vous mettre en relation avec le couple porteur de ce projet.</li>
-	   </ul>
- 
-     <h2>Équipes d’accueil covid-19</h2>
-     Pour s'inscrire aux équipes d’accueil cliquez les liens suivants :
-     <ul>
-       <li><a href="https://framadate.org/37ogqhLr1ymuPSrP">Casselardit</a></li>
-       <li><a href="https://framadate.org/Nw47uJztfKTW1LcM">Saint Nicolas</a></li>
-       <li><a href="https://framadate.org/NbNrFC3sRjJCnhla">Sacré Cœur</a></li>
-     </ul>
+<div id="accueil" class="page">
+    <h2>Actualité, agenda</h2>
+    <div class="actu">
+        <h3>Horaires des messes</h3>
+        <p>Retrouvez toute les horaires des messes et des confessions dans l'onglet <a href="#" onclick="selectPage(2)">Messes</a>
+            ou sur <a
+                    href="https://messes.info/horaires/TOULOUSE%2031300" target="_blank">Messes info</a>.</p>
+    </div>
+    <div class="actu">
+        <h3>Samedi 3 juillet, fête au Sacré-Coeur<br> <small>Paroisse lieu de rencontre(s) !</small></h3>
+        <p>Un moment de retrouvailles, de rencontre et de prière pour fêter avec notre évêque les travaux réalisés dans
+            l'église et la paroisse et le déconfinement. À partir de 12h, Plus de précisions à venir. Nous comptons sur
+            vous !</p>
+        <p><i>Merci aux 20 personnes déjà impliquées et à celles qui vont s'ajouter !</i></p>
+    </div>
+    <div class="actu">
+        <h3>AMAP Patte d'Oie</h3>
+        <p>Une nouvelle année commence, si vous êtes intéressés(e)s, n'hésitez pas à vous renseigner auprès de Benjamin
+            Gaillard(amap31.toulouse.cepiere AT gmail.com)</p>
+    </div>
+    <div class="actu">
+        <h3>St Nicolas</h3>
+        <p>Une petite équipe se constitue avec Joëlle et Dominique pour <b>améliorer l'affichage et la présentation de
+            l'église</b>. N'hésitez pas à vous manifester auprès d'elle pour rendre notre église encore plus
+            accueillante et
+            les diverses propositions plus lisibles !</p>
+        <p>Pour que les visiteurs se sentent accueillis, une <b>équipe Accueil</b> se monte dans l'église. Si vous êtes
+            tentés
+            par cette expérience, ou si vous connaissez des personnes du quartier qui pourraient se sentir concernées...
+            Contact : Isabelle R : isolabella51 AT hotmail.com</p>
+    </div>
+    <div class="actu">
+        <h3>Toutes nos paroisses</h3>
+        <p>Avez-vous déjà entendu parler...
+        <ul>
+            <li>de l'EAP (Equipe d'Animation Pastorale) ?</li>
+            <li>du Conseil Economique ?</li>
+            <li>des fraternités paroissiales ?</li>
+            <li>du Parcours Vision ?</li>
+            <li>de la conversion pastorale ?</li>
+        </ul>
+        </p>
 
-		<h2>Permanences</h2>
-     <p>À Saint Nicolas les  mardi, jeudi et vendredi de 16h à 17h45.</p>
-     <p>Au Sacré Cœur le mercredi de 15h à 17h, le jeudi de 15h30 à 17h30, le vendredi de 9h30 à 11h30 et le samedi de 9h30 à 12h.</p>
+        <p>Nous continuons à porter dans la prière la dynamique de conversion pastorale de nos paroisses. Suite au WE
+            pastoral de novembre, une équipe travaille pour proposer des petites fraternités paroissiales, une autre
+            pour favoriser des temps de rencontre fraternelle. Confions au Seigneur la croissance spirituelle de nos
+            communautés et tous les paroissiens présents et à venir&nbsp;! Que l'Esprit Saint nous anime et nous guide&nbsp;!</p>
+    </div>
+    <div class="actu">
+        <h3>Pélés VTT de l'été</h3>
+        <p>Il reste encore quelques place pour les prochains <a href="https://www.pele-vtt.fr/" target="_blank">pélés
+            VTT</a> cet été,
+            pour la via de Tolosa (07-11 juillet) et la via de Occitania (21-25 août).</p>
+    </div>
+    <div class="actu">
+        <h3>Mois de Marie</h3>
+        <p>Cette année est marquée par un marathon de prières à la demande du pape François chaque soir à 18h à travers
+            d'importants sanctuaires mariaux dans le monde, pour implorer la fin de la pandémie....alors unissons nous
+            au Pape François et à tous les chrétiens du monde entier !</p>
+        <p>Vendredi 17h: Chapelet à l'église St Nicolas.</p>
+    </div>
+    <div class="actu">
+        <h3>Ordination de Jesus le 27 juin</h3>
+        <p>Jésus sera ordonné prêtre pour le diocèse de Toulouse le dimanche 27 juin à 16 heures. Pour ceux qui veulent
+            participer pour l'aider à acquérir le matériel nécessaire à son ministère, une cagnotte va être constituée.
+            Vous pouvez participer en apportant votre participation dans une enveloppe «&nbsp;cadeau ordination Jésus&nbsp;»
+            à déposer dans les boîtes aux lettres des presbytères ou à nous remettre lors des messes. Il existe aussi
+            une <a href="https://lydia-app.com/collect/97176-ordination-jesus/fr">cagnotte en ligne</a>.</p>
+    </div>
 
-		<h2>Catéchisme</h2>
-	  <p>L'inscription est possible tout au long de l'année. Les formulaires sont à disposition dans les permanences respectives.</p>
-     <p>Une séance est organisée tous les 15 jours : à Saint Nicolas le samedi de 10h à 12h et au Sacré Coeur le dimanche à 9h30 suivie de la messe des familles.</p>
+    <h2>Recherchons des talents</h2>
+    <ul>
+        <li>Une personne pour la création d'affiches (FB, site...) pour avoir des supports attractifs</li>
+        <li>Des personnes pour travailler un support écrit pour les annonces paroissiales en vue de reprendre un
+            bulletin paroissial écrit.
+        </li>
+        <li>Pour rechercher des fonds pour permettre de continuer les travaux d'entretien et de valorisation de nos
+            locaux paroissiaux (salles, église...). Actuellement, une personne nous offre sa main d'oeuvre et sa
+            compétence et aussi son réseau pour trouver du matériel bon marché, nous devons arrêter faute de moyens,
+            alors que nous avons des besoins très concrets.
+        </li>
+        <li>Personnes intéressées pour monter une « garderie spi pour les petits enfants pendant la messe » (1 an à 3
+            ans et demie) pour répondre aux besoins des
+            parents, des enfants et de tous les paroissiens.
+            Nous contacter pour vous mettre en relation avec le couple porteur de ce projet.
+        </li>
+    </ul>
 
-		<h2>Groupes, services</h2>
-		<ul>
-			<li><a href="https://sites.sgdf.fr/toulouse-rive-gauche/">Scouts et guides de France</a></a></li>
-			<li>Équipe d'animation pastorale</li>
-			<li>Oasis</li>
-			<li>Solidarité Migrants Patte d'Oie</li>
-		</ul>
-		<h2>Liens utiles</h2>
-		<ul>
-			<li><a href="https://messes.info/horaires/TOULOUSE%2031300">Messes info</a></li>
-			<li><a href="https://toulouse.catholique.fr/">Diocèse de Toulouse</a></li>
-			<li><a href="http://www.mediations.fr/">Ancien site paroissial</a></li>
-         <li><a href="https://www.aelf.org">AELF</a> : lectures du jours</li>
-         <li><a href="https://don.diocese-toulouse.org">Denier de l'Église</a></li>
-         <li><a href="https://kairetoulouse.fr/">Kaïré</a>, la Pastorale des 11-18 ans à Toulouse</li>
-		</ul>
-	</div>
+    <h2>Équipes d’accueil covid-19</h2>
+    Pour s'inscrire aux équipes d’accueil cliquez les liens suivants :
+    <ul>
+        <li><a href="https://framadate.org/37ogqhLr1ymuPSrP">Casselardit</a></li>
+        <li><a href="https://framadate.org/Nw47uJztfKTW1LcM">Saint Nicolas</a></li>
+        <li><a href="https://framadate.org/NbNrFC3sRjJCnhla">Sacré Cœur</a></li>
+    </ul>
+
+    <h2>Permanences</h2>
+    <p>À Saint Nicolas les mardi, jeudi et vendredi de 16h à 17h45.</p>
+    <p>Au Sacré Cœur le mercredi de 15h à 17h, le jeudi de 15h30 à 17h30, le vendredi de 9h30 à 11h30 et le samedi de
+        9h30 à 12h.</p>
+
+    <h2>Catéchisme</h2>
+    <p>L'inscription est possible tout au long de l'année. Les formulaires sont à disposition dans les permanences
+        respectives.</p>
+    <p>Une séance est organisée tous les 15 jours : à Saint Nicolas le samedi de 10h à 12h et au Sacré Coeur le dimanche
+        à 9h30 suivie de la messe des familles.</p>
+
+    <h2>Groupes, services</h2>
+    <ul>
+        <li><a href="https://sites.sgdf.fr/toulouse-rive-gauche/">Scouts et guides de France</a></a></li>
+        <li>Équipe d'animation pastorale</li>
+        <li>Oasis</li>
+        <li>Solidarité Migrants Patte d'Oie</li>
+    </ul>
+    <h2>Liens utiles</h2>
+    <ul>
+        <li><a href="https://messes.info/horaires/TOULOUSE%2031300">Messes info</a></li>
+        <li><a href="https://toulouse.catholique.fr/">Diocèse de Toulouse</a></li>
+        <li><a href="http://www.mediations.fr/">Ancien site paroissial</a></li>
+        <li><a href="https://www.aelf.org">AELF</a> : lectures du jours</li>
+        <li><a href="https://don.diocese-toulouse.org">Denier de l'Église</a></li>
+        <li><a href="https://kairetoulouse.fr/">Kaïré</a>, la Pastorale des 11-18 ans à Toulouse</li>
+    </ul>
+</div>
 
 <div id="contact" class="page" style="display: none;">
-  <br><br>
-  <p>Les prêtres des paroisses sont Guillaume Loze, curé et Pascal Desbois, vicaire.</p>
+    <br><br>
+    <p>Les prêtres des paroisses sont Guillaume Loze, curé et Pascal Desbois, vicaire.</p>
 
-  <h2>Contact</h2>
-		<p>
-			Paroisse Saint Nicolas<br>
-			1 rue Antoine Bourdelle<br>
-			Tél. 05 31 54 60 92<br>
-			paroisse.saintnicolas AT gmail.com<br>
-		</p>
-		<p>
-			Paroisse du Sacré Cœur<br>
-			2 place de la Patte d'oie<br>
-			Tél. 05 61 49 38 35<br>
-			toulousesacrecoeur AT free.fr<br>
-		</p>
-      <p>Père Guillaume LOZE<br>06 82 76 98 14 / g_loze AT hotmail.com</p>
-      <p>père Pascal DESBOIS<br>07 77 26 51 39 / pascal.desbois AT free.fr</p>
-		<p><a
-			href="https://www.facebook.com/sacrecoeur.saintnicolas.toulouse/">https://www.facebook.com/sacrecoeur.saintnicolas.toulouse/</a></p>
-	</div>
-	<div id="messes" class="page" style="display: none;">
-	  <h2>Horaires des messes</h2>
-      <h3>Le weekend</h3>
-		<ul>
-			<li>Sacré Cœur
-				<ul>
-					<li>Samedi à 16h30</li>
-					<li>Dimanche à 10h30</li>
-					<li>Dimanche à 16h30</li>
-				</ul>
-			</li>
-			<li>Saint Nicolas : dimanche à 10h30</li>
-			<li>Sainte Marie de Casselardit : dimanche à 9h00</li>
-		</ul>
-	    <h3>En semaine</h3>
-		 <p>Toutes les messes ont lieu le matin&nbsp;: à 9h à St Nicolas du lundi au vendredi et à 8h au Sacré Cœur les mardi, jeudi et vendredi.</p>
-      <p>Toutes les messes sont répertoriées sur <a href="https://messes.info/horaires/TOULOUSE%2031300">Messes info</a>.</p>
-      <p>Les <a href="distanciation.pdf">règles de distanciation physique</a> suivantes s'appliquent : laisser libre deux sièges entre chaque personne ou foyer et n'occuper qu'une rangée sur deux. Les paroissiens sont invités à se répartir sur les messes du samedi et dimanche soir au sacré Cœur en raison de la capacité réduite.</p>
-	</div>
+    <h2>Contact</h2>
+    <p>
+        Paroisse Saint Nicolas<br>
+        1 rue Antoine Bourdelle<br>
+        Tél. 05 31 54 60 92<br>
+        paroisse.saintnicolas AT gmail.com<br>
+    </p>
+    <p>
+        Paroisse du Sacré Cœur<br>
+        2 place de la Patte d'oie<br>
+        Tél. 05 61 49 38 35<br>
+        toulousesacrecoeur AT free.fr<br>
+    </p>
+    <p>Père Guillaume LOZE<br>06 82 76 98 14 / g_loze AT hotmail.com</p>
+    <p>père Pascal DESBOIS<br>07 77 26 51 39 / pascal.desbois AT free.fr</p>
+    <p><a
+            href="https://www.facebook.com/sacrecoeur.saintnicolas.toulouse/">https://www.facebook.com/sacrecoeur.saintnicolas.toulouse/</a>
+    </p>
+</div>
+<div id="messes" class="page" style="display: none;">
+    <h2>Horaires des messes</small></h2>
+    <h3>Le weekend</h3>
+    <ul>
+        <li>Sacré Cœur
+            <ul>
+                <li>Samedi à 18h30 <small>(Confession à partir de 18h)</small></li>
+                <li>Dimanche à 10h30</li>
+                <li>Dimanche à 18h30 <small>(Confession à partir de 18h)</small></li>
+            </ul>
+        </li>
+        <li>Saint Nicolas
+            <ul>
+                <li>Dimanche à 10h30</li>
+            </ul>
+        </li>
+
+        <li>Sainte Marie de Casselardit
+            <ul>
+                <li>Dimanche à 9h00</li>
+            </ul>
+        </li>
+
+    </ul>
+    <h3>En semaine</h3>
+    <ul>
+        <li>Sacré Cœur
+            <ul>
+                <li>Mardi, jeudi et vendredi à 8h00</li>
+            </ul>
+        </li>
+        <li>Saint Nicolas
+            <ul>
+                <li>Du mardi au vendredi à 18h30</li>
+            </ul>
+        </li>
+    </ul>
+    <p>Toutes les messes sont répertoriées sur <a href="https://messes.info/horaires/TOULOUSE%2031300" target="_blank">Messes
+        info</a>.
+    </p>
+    <p>Les <a href="distanciation.pdf">règles de distanciation physique</a> suivantes s'appliquent : laisser libre deux
+        sièges entre chaque personne ou foyer et n'occuper qu'une rangée sur deux. Les paroissiens sont invités à se
+        répartir sur les messes du samedi et dimanche soir au sacré Cœur en raison de la capacité réduite.</p>
+</div>
 </body>
 
 </html>
