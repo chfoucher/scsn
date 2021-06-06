@@ -15,42 +15,170 @@
     <span id="btnContact" class="menuItem" onclick="selectContact()">Contact</span>
     <span id="btnMesses" class="menuItem" onclick="selectMesses()">Messes</span></div>
 
-<div id="accueil" class="page">
-    <h2>Actualité, agenda</h2>
-    <div class="actu">
-        <h3>Horaires des messes</h3>
-        <p>Retrouvez toute les horaires des messes et des confessions dans l'onglet <a href="#" onclick="selectPage(2)">Messes</a>
-            ou sur <a
-                    href="https://messes.info/horaires/TOULOUSE%2031300" target="_blank">Messes info</a>.</p>
+<div id="accueil" class="content">
+    <!--    Agenda-->
+    <div class="agenda">
+        <h2>Actualité, agenda</h2>
+        <!--        Intention de prière-->
+        <div class="actu">
+            <h3>
+                <small class="actu-date">Semaine du 6 au 12 juin</small>
+                Actualité paroissiale<br>
+            </h3>
+            <p>
+            <h4>Prochainement:</h4>
+            <ul>
+                <li><a href="#grandeBraderie">Grande Braderie</a></li>
+                <li><a href="#MesseCommunauteAfrique">Messe des communautés d'afrique et de Madagascar</a></li>
+                <li><a href="#feteSacreCoeur">Fête au Sacré-Coeur</a> (inscrivez-vous !)</li>
+            </ul>
+            <h4>Prions pour:</h4>
+            <ul>
+                <li>Marie-Jo et tous nos malades...</li>
+                <li>Les fiancés qui se préparent au mariage</li>
+                <li>Thelma, baptisée ce samedi au Sacré Coeur</li>
+                <li>Les futurs baptisés et leurs familles</li>
+                <li>Les adultes confirmés le 23 mai et ceux qui le seront le 06juin : Gérald, Théo, Jennifer, Mickaël, Monica, Tania, Stéphane, Boris, Fanny, Patrick, Adrien.</li>
+                <li>Ppère Pascal, sœur Sylvie et sœur Thuyen qui finissent ce WE leur année de formation à l'accompagnement spirituel et les fruits à venir pour nos paroisses</li>
+                <li>La conversion pastorale de nos paroisses</li>
+                <li>Que le Seigneur envoie des ouvriers à sa moisson</li>
+                <li>Les uns pour les autres…</li>
+            </ul>
+            </p>
+        </div>
+        <!--        braderie-->
+        <div class="actu">
+            <h3 id="grandeBraderie">
+                <small class="actu-date">Samedi 12 juillet de 10h à 16h</small>
+                Grande Braderie<br>
+            </h3>
+            <p>
+                La braderie organisée par <a href="https://www.facebook.com/associationpattedoie/">l'association
+                Solidarité Migrants Patte d'Oie</a>, se déroulera le samedi 12 juin
+                de 10H00 à 16H00 au <b>57, rue Adolphe Coll et au patio</b>. <br>
+                On pourra y trouver des vêtements, des chaussures, des sacs, du linge de maison, des livres et de la
+                brocante.
+            </p>
+            <p style="text-align: center">
+                <a href="https://www.facebook.com/associationpattedoie/" target="_blank"><img
+                        src="./images/braderie_12_juin_2021.jpg" height="300px"/></a>
+            </p>
+            <p>Les bénéfices, seules ressources de l'association, lui permettent de faire fonctionner les différentes
+                activités et notamment l'alphabétisation.</p>
+        </div>
+        <!--        Messe des communauté d'afrique-->
+        <div class="actu">
+            <h3 id="MesseCommunauteAfrique">
+                <small class="actu-date">Dimanche 13 juin, 16h30</small>
+                Messe des communautés d'afrique et de Madagascar<br>
+            </h3>
+            <p>
+                Le dimanche 13 juin à 16h30 aura lieu la messe des communautés d'afrique et de Madagascar en presence de
+                notre vicaire général, Monsieur l'abbé Hervé GAIGNARD .
+            </p>
+        </div>
+        <!--        Ordination de Jesus-->
+        <div class="actu">
+            <h3>
+                <small class="actu-date">Dimanche 27 juin, 16h</small>
+                Ordination de Jesus
+            </h3>
+            <p>Jésus sera ordonné prêtre pour le diocèse de Toulouse le dimanche 27 juin à 16 heures. Pour ceux qui
+                veulent
+                participer pour l'aider à acquérir le matériel nécessaire à son ministère, une cagnotte va être
+                constituée.
+                Vous pouvez participer en apportant votre participation dans une enveloppe «&nbsp;cadeau ordination
+                Jésus&nbsp;»
+                à déposer dans les boîtes aux lettres des presbytères ou à nous remettre lors des messes. Il existe
+                aussi
+                une <a href="https://lydia-app.com/collect/97176-ordination-jesus/fr">cagnotte en ligne</a>.</p>
+        </div>
+        <!--        Fete au sacrée coeur-->
+        <div class="actu">
+            <h3 id="feteSacreCoeur">
+                <small class="actu-date">Samedi 3 juillet</small>
+                Fête au Sacré-Coeur<br>
+                <small>Paroisse lieu de rencontre(s) !</small>
+            </h3>
+
+            <p>Un moment de retrouvailles, de rencontre et de prière pour fêter avec notre évêque les travaux réalisés
+                dans l'église et la paroisse et le déconfinement. Nous comptons sur vous !</p>
+            <p>Merci de vous inscrire en remplissant ce <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfGEsKfc47PiSOBmQzZsGIM6Yl9ADVitP8JQz6lBHhusNID3w/viewform?usp=sf_link">formulaire</a>.
+            </p>
+            <p><a href="fete.html">Programme</a>:
+            <ul>
+                <li>12:00 Apéritif en musique</li>
+                <li>12:30 Repas tiré du sac</li>
+                <li>14:30 Animation festive</li>
+                <li>16:30 Messe présidée par l'Archevêque de Toulouse, Monseigneur Le Gall</li>
+            </ul>
+            </p>
+            <p style="text-align: center"><a href="fete.html"><img src="affiche_fete_3_juillet.png" height="300px"/></a>
+            </p>
+
+            <p><i>Merci aux 20 personnes déjà impliquées et à celles qui vont s'ajouter !</i></p>
+        </div>
+        <!--Pélés vtt-->
+        <div class="actu">
+            <h3>
+                <small class="actu-date">Du 7 au 11 juillet ou du 21 au 25 août</small>
+                Pélés VTT de l'été
+            </h3>
+            <p>Il reste encore quelques place pour les prochains pélés
+                VTT cet été <br>
+            <ul>
+                <li>Via de Tolosa (07-11 juillet)</li>
+                <li>Via de Occitania (21-25 août)</li>
+            </ul>
+            Inscriptions sur le site <a href="https://www.pele-vtt.fr/" target="_blank">pele-vtt.fr</a>
+            </p>
+        </div>
+
     </div>
-    <div class="actu">
-        <h3>Samedi 3 juillet, fête au Sacré-Coeur<br> <small>Paroisse lieu de rencontre(s) !</small></h3>
-        <p>Un moment de retrouvailles, de rencontre et de prière pour fêter avec notre évêque les travaux réalisés dans
-          l'église et la paroisse et le déconfinement. Nous comptons sur vous !</p>
-        <p> <a href="fete.html">Programme</a>:
-          <ul>
-            <li>12:00 Apéritif en musique</li>
-            <li>12:30 Repas tiré du sac</li>
-            <li>14:30 Animation festive</li>
-            <li>16:30 Messe présidée par l'Archevêque de Toulouse, Monseigneur Le Gall</li>
-          </ul></p>
-        <p style="text-align: center"><a href="fete.html"><img src="affiche_fete_3_juillet.png" height="300px"/></a></p>
-          <p>Merci de vous inscrire en remplissant ce <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGEsKfc47PiSOBmQzZsGIM6Yl9ADVitP8JQz6lBHhusNID3w/viewform?usp=sf_link">formulaire</a>.</p>
-        <p><i>Merci aux 20 personnes déjà impliquées et à celles qui vont s'ajouter !</i></p>
-    </div>
-    <div class="actu">
-        <h3>St Nicolas</h3>
-        <p>Une petite équipe se constitue avec Joëlle et Dominique pour <b>améliorer l'affichage et la présentation de
+    <!--    Information-->
+    <div class="informations">
+        <h2>Recherchons des talents</h2>
+        <ul>
+            <li>Une personne pour la création d'affiches (FB, site...) pour avoir des supports attractifs</li>
+            <li>Des personnes pour travailler un support écrit pour les annonces paroissiales en vue de reprendre un
+                bulletin paroissial écrit.
+            </li>
+            <li>Pour rechercher des fonds pour permettre de continuer les travaux d'entretien et de valorisation de nos
+                locaux paroissiaux (salles, église...). Actuellement, une personne nous offre sa main d'oeuvre et sa
+                compétence et aussi son réseau pour trouver du matériel bon marché, nous devons arrêter faute de moyens,
+                alors que nous avons des besoins très concrets.
+            </li>
+            <li>Personnes intéressées pour monter une « garderie spi pour les petits enfants pendant la messe » (1 an à
+                3
+                ans et demie) pour répondre aux besoins des
+                parents, des enfants et de tous les paroissiens.
+                Nous contacter pour vous mettre en relation avec le couple porteur de ce projet.
+            </li>
+        </ul>
+
+        <h2>Équipes d’accueil covid-19</h2>
+        Pour s'inscrire aux équipes d’accueil cliquez les liens suivants :
+        <ul>
+            <li><a href="https://framadate.org/37ogqhLr1ymuPSrP">Casselardit</a></li>
+            <li><a href="https://framadate.org/Nw47uJztfKTW1LcM">Saint Nicolas</a></li>
+            <li><a href="https://framadate.org/NbNrFC3sRjJCnhla">Sacré Cœur</a></li>
+        </ul>
+
+        <h2>St Nicolas</h2>
+        <p>Une petite équipe se constitue avec Joëlle et Dominique pour <b>améliorer l'affichage et la présentation
+            de
             l'église</b>. N'hésitez pas à vous manifester auprès d'elle pour rendre notre église encore plus
             accueillante et
             les diverses propositions plus lisibles !</p>
-        <p>Pour que les visiteurs se sentent accueillis, une <b>équipe Accueil</b> se monte dans l'église. Si vous êtes
+        <p>Pour que les visiteurs se sentent accueillis, une <b>équipe Accueil</b> se monte dans l'église. Si vous
+            êtes
             tentés
-            par cette expérience, ou si vous connaissez des personnes du quartier qui pourraient se sentir concernées...
+            par cette expérience, ou si vous connaissez des personnes du quartier qui pourraient se sentir
+            concernées...
             Contact : Isabelle R : isolabella51 AT hotmail.com</p>
-    </div>
-    <div class="actu">
-        <h3>Toutes nos paroisses</h3>
+
+        <h2>Toutes nos paroisses</h2>
         <p>Avez-vous déjà entendu parler...
         <ul>
             <li>de l'EAP (Equipe d'Animation Pastorale) ?</li>
@@ -61,85 +189,43 @@
         </ul>
         </p>
 
-        <p>Nous continuons à porter dans la prière la dynamique de conversion pastorale de nos paroisses. Suite au WE
+        <p>Nous continuons à porter dans la prière la dynamique de conversion pastorale de nos paroisses. Suite au
+            WE
             pastoral de novembre, une équipe travaille pour proposer des petites fraternités paroissiales, une autre
             pour favoriser des temps de rencontre fraternelle. Confions au Seigneur la croissance spirituelle de nos
-            communautés et tous les paroissiens présents et à venir&nbsp;! Que l'Esprit Saint nous anime et nous guide&nbsp;!</p>
+            communautés et tous les paroissiens présents et à venir&nbsp;! Que l'Esprit Saint nous anime et nous
+            guide&nbsp;!</p>
+
+        <h2>Permanences</h2>
+        <p>À Saint Nicolas les mardi, jeudi et vendredi de 17h à 19h.</p>
+        <p>Au Sacré Cœur le mercredi de 15h à 17h, le jeudi de 15h30 à 17h30, le vendredi de 9h30 à 11h30 et de 15h à
+            17h et le samedi de 9h30 à 12h.</p>
+
+        <h2>Catéchisme</h2>
+        <p>L'inscription est possible tout au long de l'année. Les formulaires sont à disposition dans les permanences
+            respectives.</p>
+        <p>Une séance est organisée tous les 15 jours : à Saint Nicolas le samedi de 10h à 12h et au Sacré Coeur le
+            dimanche
+            à 9h30 suivie de la messe des familles.</p>
+
+        <h2>Groupes, services</h2>
+        <ul>
+            <li><a href="https://sites.sgdf.fr/toulouse-rive-gauche/">Scouts et guides de France</a></a></li>
+            <li>Équipe d'animation pastorale</li>
+            <li>Oasis</li>
+            <li>Solidarité Migrants Patte d'Oie</li>
+        </ul>
+        <h2>Liens utiles</h2>
+        <ul>
+            <li><a href="https://messes.info/horaires/TOULOUSE%2031300">Messes info</a></li>
+            <li><a href="https://toulouse.catholique.fr/">Diocèse de Toulouse</a></li>
+            <li><a href="http://www.mediations.fr/">Ancien site paroissial</a></li>
+            <li><a href="https://www.aelf.org">AELF</a> : lectures du jours</li>
+            <li><a href="https://don.diocese-toulouse.org">Denier de l'Église</a></li>
+            <li><a href="https://kairetoulouse.fr/">Kaïré</a>, la Pastorale des 11-18 ans à Toulouse</li>
+        </ul>
+
     </div>
-    <div class="actu">
-        <h3>Pélés VTT de l'été</h3>
-        <p>Il reste encore quelques place pour les prochains <a href="https://www.pele-vtt.fr/" target="_blank">pélés
-            VTT</a> cet été,
-            pour la via de Tolosa (07-11 juillet) et la via de Occitania (21-25 août).</p>
-    </div>
-    <div class="actu">
-        <h3>Mois de Marie</h3>
-        <p>Cette année est marquée par un marathon de prières à la demande du pape François chaque soir à 18h à travers
-            d'importants sanctuaires mariaux dans le monde, pour implorer la fin de la pandémie....alors unissons nous
-            au Pape François et à tous les chrétiens du monde entier !</p>
-        <p>Vendredi 17h: Chapelet à l'église St Nicolas.</p>
-    </div>
-    <div class="actu">
-        <h3>Ordination de Jesus le 27 juin</h3>
-        <p>Jésus sera ordonné prêtre pour le diocèse de Toulouse le dimanche 27 juin à 16 heures. Pour ceux qui veulent
-            participer pour l'aider à acquérir le matériel nécessaire à son ministère, une cagnotte va être constituée.
-            Vous pouvez participer en apportant votre participation dans une enveloppe «&nbsp;cadeau ordination Jésus&nbsp;»
-            à déposer dans les boîtes aux lettres des presbytères ou à nous remettre lors des messes. Il existe aussi
-            une <a href="https://lydia-app.com/collect/97176-ordination-jesus/fr">cagnotte en ligne</a>.</p>
-    </div>
-
-    <h2>Recherchons des talents</h2>
-    <ul>
-        <li>Une personne pour la création d'affiches (FB, site...) pour avoir des supports attractifs</li>
-        <li>Des personnes pour travailler un support écrit pour les annonces paroissiales en vue de reprendre un
-            bulletin paroissial écrit.
-        </li>
-        <li>Pour rechercher des fonds pour permettre de continuer les travaux d'entretien et de valorisation de nos
-            locaux paroissiaux (salles, église...). Actuellement, une personne nous offre sa main d'oeuvre et sa
-            compétence et aussi son réseau pour trouver du matériel bon marché, nous devons arrêter faute de moyens,
-            alors que nous avons des besoins très concrets.
-        </li>
-        <li>Personnes intéressées pour monter une « garderie spi pour les petits enfants pendant la messe » (1 an à 3
-            ans et demie) pour répondre aux besoins des
-            parents, des enfants et de tous les paroissiens.
-            Nous contacter pour vous mettre en relation avec le couple porteur de ce projet.
-        </li>
-    </ul>
-
-    <h2>Équipes d’accueil covid-19</h2>
-    Pour s'inscrire aux équipes d’accueil cliquez les liens suivants :
-    <ul>
-        <li><a href="https://framadate.org/37ogqhLr1ymuPSrP">Casselardit</a></li>
-        <li><a href="https://framadate.org/Nw47uJztfKTW1LcM">Saint Nicolas</a></li>
-        <li><a href="https://framadate.org/NbNrFC3sRjJCnhla">Sacré Cœur</a></li>
-    </ul>
-
-    <h2>Permanences</h2>
-    <p>À Saint Nicolas les mardi, jeudi et vendredi de 17h à 19h.</p>
-    <p>Au Sacré Cœur le mercredi de 15h à 17h, le jeudi de 15h30 à 17h30, le vendredi de 9h30 à 11h30 et de 15h à 17h et le samedi de 9h30 à 12h.</p>
-
-    <h2>Catéchisme</h2>
-    <p>L'inscription est possible tout au long de l'année. Les formulaires sont à disposition dans les permanences
-        respectives.</p>
-    <p>Une séance est organisée tous les 15 jours : à Saint Nicolas le samedi de 10h à 12h et au Sacré Coeur le dimanche
-        à 9h30 suivie de la messe des familles.</p>
-
-    <h2>Groupes, services</h2>
-    <ul>
-        <li><a href="https://sites.sgdf.fr/toulouse-rive-gauche/">Scouts et guides de France</a></a></li>
-        <li>Équipe d'animation pastorale</li>
-        <li>Oasis</li>
-        <li>Solidarité Migrants Patte d'Oie</li>
-    </ul>
-    <h2>Liens utiles</h2>
-    <ul>
-        <li><a href="https://messes.info/horaires/TOULOUSE%2031300">Messes info</a></li>
-        <li><a href="https://toulouse.catholique.fr/">Diocèse de Toulouse</a></li>
-        <li><a href="http://www.mediations.fr/">Ancien site paroissial</a></li>
-        <li><a href="https://www.aelf.org">AELF</a> : lectures du jours</li>
-        <li><a href="https://don.diocese-toulouse.org">Denier de l'Église</a></li>
-        <li><a href="https://kairetoulouse.fr/">Kaïré</a>, la Pastorale des 11-18 ans à Toulouse</li>
-    </ul>
 </div>
 
 <div id="contact" class="page" style="display: none;">
