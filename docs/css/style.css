@@ -9,8 +9,10 @@ html, body {
 
 body .content {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
+
 
 .content .agenda,
 .content .informations {
@@ -53,7 +55,6 @@ li > ul {
     padding: .5rem;
     margin-bottom: 1rem;
 }
-
 .actu h3 {
     margin-top: .35rem;
 }
@@ -78,7 +79,8 @@ li > ul {
 
 @media screen and (max-width: 640px) {
     .content {
-        padding: .5rem;
+        margin: .5rem;
+        width: 100%;
     }
 
     .content .agenda {
@@ -92,7 +94,7 @@ li > ul {
 
 @media screen and (min-width: 640px) and (max-width: 720px) {
     .content {
-        padding: .5rem;
+        margin: .5rem;
     }
 
     .content .agenda {
@@ -106,7 +108,7 @@ li > ul {
 
 @media screen and (min-width: 720px) and (max-width: 960px) {
     .content {
-        padding: .5rem;
+        margin: .5rem;
     }
 
     .content .agenda {
@@ -120,7 +122,7 @@ li > ul {
 
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .content {
-        padding: 1rem;
+        margin: 1rem;
     }
 
     .content .agenda {
@@ -134,7 +136,7 @@ li > ul {
 
 @media screen and (min-width: 1366px) {
     .content {
-        padding: 1rem 4rem;
+        margin: 1rem 4rem;
     }
 
     .content .agenda {
