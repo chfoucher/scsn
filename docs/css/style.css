@@ -20,6 +20,12 @@ body .content {
     display: flex;
     flex-direction: column;
 }
+.content .content-center {
+    margin: 1rem auto;
+    background: aliceblue;
+    border: 1px solid #e8eef3;
+    padding: .5rem;
+}
 
 .content .informations h2 {
     margin-bottom: .5rem;
