@@ -64,7 +64,8 @@ li > ul {
 .actu h3 {
     margin-top: .35rem;
 }
-.actu h3 .actu-date {
+.actu h3.actu-date {
+    font-size: small;
     padding-right: 1rem;
     float: right;
 }
